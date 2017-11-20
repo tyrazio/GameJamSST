@@ -51,6 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Shimeji\Script\BallCreate.cs" />
+     <Compile Include="Assets\Shimeji\Script\BallStart.cs" />
+     <Compile Include="Assets\Shimeji\Script\Deffender.cs" />
      <Compile Include="Assets\Sumiya\Script\middle_gard.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
