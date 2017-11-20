@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/tunekawa/test2.unity
+- path: Assets/Shimeji/test_shimo.unity
   isLoaded: 1
   isActive: 1

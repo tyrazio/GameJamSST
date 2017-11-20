@@ -5,10 +5,10 @@ using UnityEngine;
 public class goal2 : MonoBehaviour {
 
     score sc;
-    int p1;
-    int p2;
-    int c1;
-    int c2;
+    public int p1;
+    public int p2;
+    public int c1;
+    public int c2;
     void Start()
     {
         sc = FindObjectOfType<score>();
@@ -24,15 +24,17 @@ public class goal2 : MonoBehaviour {
     }
     void OnTriggerEnter(Collider obj)
     {
-        if (obj.tag == "boal")
+        if (obj.tag == "ball")
         {
             if (p1 == 20 && p2 == 20)
             {
                 sc.Count2();
+                Destroy(obj.gameObject);
             }
             else
             {
                 sc.Point2();
+                Destroy(obj.gameObject);
             }
 
         }
