@@ -111,7 +111,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 50
+  controlID: 72
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 51
+  controlID: 27
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -399,11 +399,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.2067605, y: -0.679682, z: 0.20913275, w: 0.67197174}
     speed: 2
-    m_Value: {x: 0.2067605, y: -0.679682, z: 0.20913275, w: 0.67197174}
+    m_Value: {x: -0.2067605, y: 0.679682, z: -0.20913275, w: -0.67197174}
   m_Size:
-    m_Target: 17.260504
+    m_Target: 157.1935
     speed: 2
-    m_Value: 17.260504
+    m_Value: 157.1935
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -513,9 +513,9 @@ MonoBehaviour:
     height: 758
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2c280000
-    m_LastClickedID: 10284
-    m_ExpandedIDs: 54f9ffff58f9ffff00000000
+    m_SelectedIDs: ce270000
+    m_LastClickedID: 10190
+    m_ExpandedIDs: a6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -575,19 +575,18 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders:
-    - Assets/Sumiya/Phisics
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\No.9\Documents\GameJamSST\SST
+  m_LastProjectPath: C:\Users\No.9\Documents\GameJamSST2\SST
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: d6250000
     m_LastClickedID: 9686
-    m_ExpandedIDs: 00000000b0270000c2270000d4270000f6270000f8270000
+    m_ExpandedIDs: 0000000026270000382700003a2700004c2700008027000082270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -615,7 +614,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b0270000c2270000d4270000f6270000f8270000ae2c0000
+    m_ExpandedIDs: 0000000026270000382700003a2700004c2700008027000082270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -696,7 +695,7 @@ MonoBehaviour:
     y: 92
     width: 278
     height: 758
-  m_ScrollPosition: {x: 0, y: 54.95508}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: -160
