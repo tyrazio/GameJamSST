@@ -22,11 +22,11 @@ public class middle_gard : MonoBehaviour {
             z -= position_z;
         }
         transform.position = new Vector3(0, 0, z);
-        if (z >= 5.5f)
+        if (z >= 5.0f)
         {
             select = false;
         }
-        if (z <= -5.5f)
+        if (z <= -5.0f)
         {
             select = true;
         }
