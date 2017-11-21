@@ -223,11 +223,6 @@
     <Compile Include="Assets\Shimeji\Script\BallStart.cs" />
     <Compile Include="Assets\Shimeji\Script\Deffender.cs" />
     <Compile Include="Assets\Sumiya\Script\middle_gard.cs" />
-    <Compile Include="Assets\tunekawa\Scripts\DetroyArea.cs" />
-    <Compile Include="Assets\tunekawa\Scripts\goal1.cs" />
-    <Compile Include="Assets\tunekawa\Scripts\goal2.cs" />
-    <Compile Include="Assets\tunekawa\Scripts\Manager.cs" />
-    <Compile Include="Assets\tunekawa\Scripts\score.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

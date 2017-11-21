@@ -111,7 +111,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 421}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 3244
+  controlID: 1600
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 3245
+  controlID: 1601
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -367,14 +367,14 @@ MonoBehaviour:
     width: 644
     height: 388
   m_SceneLighting: 1
-  lastFramingTime: 1015.5776453772564
+  lastFramingTime: 257.6735757230602
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 12.416458, y: 3.2330818, z: 2.9317613}
+    m_Target: {x: 0.731987, y: -0.28262138, z: 0.12174212}
     speed: 2
-    m_Value: {x: 12.416458, y: 3.2330818, z: 2.9317613}
+    m_Value: {x: 0.731987, y: -0.28262138, z: 0.12174212}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -397,13 +397,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.65147036, y: 0.11614021, z: -0.101862885, w: -0.7427799}
+    m_Target: {x: -0.7039144, y: 0.0021308423, z: -0.0021117502, w: -0.7102785}
     speed: 2
-    m_Value: {x: -0.6514703, y: 0.116140194, z: -0.10186287, w: -0.74277985}
+    m_Value: {x: -0.7039144, y: 0.0021308423, z: -0.0021117502, w: -0.7102785}
   m_Size:
-    m_Target: 18.093643
+    m_Target: 19.51961
     speed: 2
-    m_Value: 18.093643
+    m_Value: 19.51961
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -513,23 +513,23 @@ MonoBehaviour:
     height: 758
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9e97fdff
-    m_LastClickedID: -157794
-    m_ExpandedIDs: bab5feffeea2ffffa4fbffffa6fbffff0000000028280000
+    m_SelectedIDs: 76280000
+    m_LastClickedID: 10358
+    m_ExpandedIDs: b24affff9482ffffa0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 'non_sharp_1 '
-      m_OriginalName: 'non_sharp_1 '
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -98784
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -575,8 +575,7 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders:
-    - Assets/Sumiya/Material
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -587,7 +586,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: d6250000
     m_LastClickedID: 9686
-    m_ExpandedIDs: 0000000036270000422700004e27000050270000522700005a2700006c270000a0270000a8270000ae270000d2270000
+    m_ExpandedIDs: 000000005c270000682700007227000074270000762700007e27000090270000c2270000ca270000ce270000f2270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -615,7 +614,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000036270000422700004e27000050270000522700005a2700006c270000a0270000a8270000ae270000d2270000
+    m_ExpandedIDs: 000000005c270000682700007227000074270000762700007e27000090270000c2270000ca270000ce270000f2270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
