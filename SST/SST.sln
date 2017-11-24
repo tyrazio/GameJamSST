@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SST", "Assembly-CSharp.csproj", "{07E1B7F0-86C3-46BD-103D-305E822CE31C}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SST", "SST.csproj", "{3006E24B-B578-E4B8-4498-4A81BE232D78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{07E1B7F0-86C3-46BD-103D-305E822CE31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07E1B7F0-86C3-46BD-103D-305E822CE31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07E1B7F0-86C3-46BD-103D-305E822CE31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07E1B7F0-86C3-46BD-103D-305E822CE31C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3006E24B-B578-E4B8-4498-4A81BE232D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3006E24B-B578-E4B8-4498-4A81BE232D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3006E24B-B578-E4B8-4498-4A81BE232D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3006E24B-B578-E4B8-4498-4A81BE232D78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

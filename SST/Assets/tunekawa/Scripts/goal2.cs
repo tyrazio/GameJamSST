@@ -24,7 +24,7 @@ public class goal2 : MonoBehaviour {
     }
     void OnTriggerEnter(Collider obj)
     {
-        if (obj.tag == "ball")
+        if (obj.tag == "Ball")
         {
             if (p1 == 20 && p2 == 20)
             {
