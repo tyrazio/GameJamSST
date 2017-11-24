@@ -6,7 +6,7 @@ public class DetroyArea : MonoBehaviour {
 
     void OnTriggerExit(Collider c)
     {
-        if (c.tag == "ball")
+        if (c.tag == "Ball")
         {
             Destroy(c.gameObject);
         }
