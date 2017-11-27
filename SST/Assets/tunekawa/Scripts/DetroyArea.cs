@@ -9,6 +9,7 @@ public class DetroyArea : MonoBehaviour {
         if (c.tag == "Ball")
         {
             Destroy(c.gameObject);
+            GameObject.Find("BallCreate").GetComponent<BallCreate>().flag = true;
         }
     }
 }

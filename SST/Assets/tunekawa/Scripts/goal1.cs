@@ -13,6 +13,7 @@ public class goal1 : MonoBehaviour {
     void Start()
     {
         sc = FindObjectOfType<score>();
+
         
     }
     // Update is called once per frame
@@ -30,11 +31,13 @@ public class goal1 : MonoBehaviour {
             {
                 sc.Count1();
                 Destroy(obj.gameObject);
+                GameObject.Find("BallCreate").GetComponent<BallCreate>().flag = true;
             }
             else
             {
                 sc.Point1();
                 Destroy(obj.gameObject);
+                GameObject.Find("BallCreate").GetComponent<BallCreate>().flag = true;
             }
 
         }
