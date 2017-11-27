@@ -25,6 +25,9 @@ public class BallCreate : MonoBehaviour
             flag = false;
         }
     }
+    void Flag() {
+        flag = true;
+    }
     //private IEnumerator Delay()
     //{
     //    yield return new WaitForSeconds(0.05f);
