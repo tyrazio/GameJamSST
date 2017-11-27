@@ -513,7 +513,7 @@ MonoBehaviour:
     height: 614
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 22070000
+    m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: a6fbffff00000000
     m_RenameOverlay:
@@ -615,21 +615,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000036270000502700005227000070270000a2270000ae270000b4270000d0270000
+    m_ExpandedIDs: 00000000362700004627000050270000522700005c27000070270000a2270000ae270000b4270000d0270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: DetroyArea
-      m_OriginalName: DetroyArea
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 1826
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
