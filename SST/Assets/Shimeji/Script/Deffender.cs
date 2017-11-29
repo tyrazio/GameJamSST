@@ -66,14 +66,24 @@ public class Deffender : MonoBehaviour {
     [CanEditMultipleObjects]
     [CustomEditor(typeof(Deffender))]
     public class DefEX : Editor {
+        SerializedProperty Playerpro;
+        SerializedProperty Speedpro;
+        SerializedProperty Powerpro;
+        private void OnEnable()
+        {
+            Playerpro = serializedObject.FindProperty("Player");
+            Speedpro = serializedObject.FindProperty("speed");
+            Powerpro = serializedObject.FindProperty("power");
+        }
         public override void OnInspectorGUI()
         {
             serializedObject.Update();
-            Deffender def = target as Deffender;
-            def.Player = (Side)EditorGUILayout.EnumPopup("プレイヤー", def.Player);
-            def.speed = EditorGUILayout.FloatField("スピード", def.speed);
-            def.power = EditorGUILayout.FloatField("パワー", def.power);
-            EditorUtility.SetDirty(target);
+            EditorGUI.BeginChangeCheck();
+            Playerpro.enumValueIndex =(int)(Side)EditorGUILayout.EnumPopup("プレイヤー",(Side)Playerpro.enumValueIndex);
+            Speedpro.floatValue = EditorGUILayout.FloatField("スピード", Speedpro.floatValue);
+            Powerpro.floatValue = EditorGUILayout.FloatField("パワー", Powerpro.floatValue);
+            if (EditorGUI.EndChangeCheck())
+                serializedObject.ApplyModifiedProperties();
 
         }
     }
