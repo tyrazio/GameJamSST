@@ -71,11 +71,11 @@ public class score : MonoBehaviour {
 
     public void Point1()
     {
-        score1 += 1;
+        score1 += 5;
     }
     public void Point2()
     {
-        score2 += 1;
+        score2 += 5;
     }
     public void Count1()
     {
