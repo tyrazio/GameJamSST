@@ -1,19 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Manager : MonoBehaviour {
 
-    private GameObject title;
-    private GameObject title2;
-    private GameObject title3;
+    public Text title;
+    public Text title2;
+    public Text title3;
 	// Use this for initialization
 	void Start () {
-        title = GameObject.Find("Start");
-        title2 = GameObject.Find("p1win");
-        title3 = GameObject.Find("p2win");
-        title2.SetActive(false);
-        title3.SetActive(false);
+        title2.gameObject.SetActive(false);
+        title3.gameObject.SetActive(false);
+        GameStart();
 	}
 	
     public void P1Win()
@@ -22,7 +21,7 @@ public class Manager : MonoBehaviour {
     }
     IEnumerator P1win()
     {
-        title2.SetActive(true);
+        title2.gameObject.SetActive(true);
         yield return new WaitForSeconds(4.0f);
 
     }
@@ -32,8 +31,17 @@ public class Manager : MonoBehaviour {
     }
     IEnumerator P2win()
     {
-        title3.SetActive(true);
+        title3.gameObject.SetActive(true);
         yield return new WaitForSeconds(4.0f);
+    }
+    public void GameStart()
+    {
+        StartCoroutine("Gamestart");
+    }
+    IEnumerator Gamestart()
+    {
+        yield return new WaitForSeconds(3.0f);
+        title.gameObject.SetActive(false);
     }
 }
 
