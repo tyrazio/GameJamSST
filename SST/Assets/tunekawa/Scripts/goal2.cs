@@ -30,13 +30,11 @@ public class goal2 : MonoBehaviour {
             {
                 sc.Count2();
                 Destroy(obj.gameObject);
-                GameObject.Find("BallCreate").GetComponent<BallCreate>().flag = true;
             }
             else
             {
                 sc.Point2();
                 Destroy(obj.gameObject);
-                GameObject.Find("BallCreate").GetComponent<BallCreate>().flag = true;
             }
 
         }

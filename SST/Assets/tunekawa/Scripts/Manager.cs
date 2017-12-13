@@ -17,6 +17,7 @@ public class Manager : MonoBehaviour {
 	
     public void P1Win()
     {
+        GameObject.Find("BallCreate").GetComponent<BallCreate>().flag = false;
         StartCoroutine("P1win");
     }
     IEnumerator P1win()
@@ -27,6 +28,7 @@ public class Manager : MonoBehaviour {
     }
     public void P2Win()
     {
+        GameObject.Find("BallCreate").GetComponent<BallCreate>().flag = false;
         StartCoroutine("P2win");
     }
     IEnumerator P2win()
