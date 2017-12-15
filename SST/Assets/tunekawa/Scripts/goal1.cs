@@ -13,6 +13,7 @@ public class goal1 : MonoBehaviour {
     void Start()
     {
         sc = FindObjectOfType<score>();
+
         
     }
     // Update is called once per frame

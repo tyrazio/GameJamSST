@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Sumiya/test_Sumiya_2.unity
+- path: Assets/tunekawa/test3.unity
   isLoaded: 1
   isActive: 1

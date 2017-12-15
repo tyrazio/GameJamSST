@@ -71,18 +71,36 @@ public class score : MonoBehaviour {
 
     public void Point1()
     {
-        score1 += 1;
+        score1 += 5;
+        if (score1 < 25)
+        {
+            GameObject.Find("BallCreate").GetComponent<BallCreate>().flag = true;
+
+        }
     }
     public void Point2()
     {
-        score2 += 1;
+        score2 += 5;
+        if (score2 < 25)
+        {
+            GameObject.Find("BallCreate").GetComponent<BallCreate>().flag = true;
+        }
     }
     public void Count1()
     {
         count1 += 1;
+        if (count1 < 2)
+        {
+            GameObject.Find("BallCreate").GetComponent<BallCreate>().flag = true;
+
+        }
     }
     public void Count2()
     {
         count2 += 1;
+        if (count2 < 2)
+        {
+            GameObject.Find("BallCreate").GetComponent<BallCreate>().flag = true;
+        }
     }
 }
