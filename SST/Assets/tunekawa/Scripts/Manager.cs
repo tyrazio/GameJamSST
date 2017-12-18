@@ -44,6 +44,7 @@ public class Manager : MonoBehaviour {
     {
         yield return new WaitForSeconds(3.0f);
         title.gameObject.SetActive(false);
+        GameObject.Find("BallCreate").GetComponent<BallCreate>().flag = true;
     }
 }
 
