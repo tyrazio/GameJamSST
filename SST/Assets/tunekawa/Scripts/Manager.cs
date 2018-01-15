@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour {
 
@@ -24,6 +25,7 @@ public class Manager : MonoBehaviour {
     {
         title2.gameObject.SetActive(true);
         yield return new WaitForSeconds(4.0f);
+        SceneManager.LoadScene("Start");
 
     }
     public void P2Win()
@@ -35,6 +37,7 @@ public class Manager : MonoBehaviour {
     {
         title3.gameObject.SetActive(true);
         yield return new WaitForSeconds(4.0f);
+        SceneManager.LoadScene("Start");
     }
     public void GameStart()
     {
