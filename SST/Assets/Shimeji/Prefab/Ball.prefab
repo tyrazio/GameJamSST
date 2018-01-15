@@ -42,8 +42,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4060260913551850}
   - component: {fileID: 96433381708123946}
-  - component: {fileID: 54338021069059372}
   - component: {fileID: 114021302610210590}
+  - component: {fileID: 54961119817374996}
   m_Layer: 0
   m_Name: Trail
   m_TagString: Untagged
@@ -119,21 +119,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1209617839911208}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &54338021069059372
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1789492801391026}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!54 &54553481413551252
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -148,6 +133,21 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &54961119817374996
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1789492801391026}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!96 &96433381708123946
 TrailRenderer:
@@ -184,7 +184,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 3
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 1
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9df8492668331f42b293378916fccb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 10
+  timer: 5
 --- !u!114 &114318807865528430
 MonoBehaviour:
   m_ObjectHideFlags: 1

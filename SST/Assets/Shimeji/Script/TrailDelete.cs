@@ -16,7 +16,7 @@ public class TrailDelete : MonoBehaviour {
             timer -= Time.deltaTime;
         }
 
-        if (timer == 0) {
+        if (timer <= 0) {
             Destroy(gameObject);
         }
 	}
