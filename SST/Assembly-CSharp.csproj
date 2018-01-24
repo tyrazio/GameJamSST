@@ -51,10 +51,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Shimeji\Deffender.cs" />
+     <Compile Include="Assets\Shimeji\Script\Arts.cs" />
+     <Compile Include="Assets\Shimeji\Script\BallColor.cs" />
      <Compile Include="Assets\Shimeji\Script\BallCreate.cs" />
      <Compile Include="Assets\Shimeji\Script\BallStart.cs" />
-     <Compile Include="Assets\Shimeji\Script\Deffender.cs" />
+     <Compile Include="Assets\Shimeji\Script\Middle.cs" />
+     <Compile Include="Assets\Shimeji\Script\Times.cs" />
+     <Compile Include="Assets\Shimeji\Script\TrailDelete.cs" />
      <Compile Include="Assets\Sumiya\Script\middle_gard.cs" />
+     <Compile Include="Assets\tunekawa\Scripts\DetroyArea.cs" />
+     <Compile Include="Assets\tunekawa\Scripts\goal1.cs" />
+     <Compile Include="Assets\tunekawa\Scripts\goal2.cs" />
+     <Compile Include="Assets\tunekawa\Scripts\Manager.cs" />
+     <Compile Include="Assets\tunekawa\Scripts\score.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
